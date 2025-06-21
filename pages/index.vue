@@ -17,8 +17,12 @@
 </template>
 
 <style>
-  body{
-    background-color: black;
+  #__nuxt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding:40px;
   }
 
   .blog-entry-form{

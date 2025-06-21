@@ -30,6 +30,7 @@
     display: flex;
     align-items: center;
     padding:40px;
+    gap:80px;
     flex-direction: column;
   }
 
@@ -38,7 +39,7 @@
     gap:24px;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
+    width:100%;
   }
 
   input, textarea{
@@ -70,8 +71,9 @@
     list-style: none;
     display: grid;
     padding:0px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
+    width:100%;
 
     li{
       border:1px solid lightgray;

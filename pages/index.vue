@@ -49,6 +49,13 @@
     background-color: white;
     border:1px solid black;
     border-radius: 24px;
+    transition: all 0.4s ease;
+  }
+
+  button:hover{
+    background-color: black;
+    color: white;
+    border:1px solid white;
   }
 </style>
 

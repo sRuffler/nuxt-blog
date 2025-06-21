@@ -16,6 +16,15 @@
   </ul>
 </template>
 
+<style scoped>
+  input, textarea{
+    display: block;
+    border-radius: 8px;
+    border:1px solid black;
+  }
+</style>
+
+
 <script>
 export default {
   name: 'Blog',

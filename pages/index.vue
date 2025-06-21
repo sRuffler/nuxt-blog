@@ -50,6 +50,7 @@
     border:1px solid black;
     border-radius: 24px;
     transition: all 0.4s ease;
+    cursor:pointer;
   }
 
   button:hover{
@@ -62,7 +63,7 @@
     list-style: none;
     display: flex;
     gap: 40px;
-    
+
     li{
       border:1px solid lightgray;
       padding:16px;

@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     padding:40px;
-    gap:80px;
+    gap:40px;
     flex-direction: column;
   }
 
@@ -75,6 +75,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
     width:100%;
+    margin-top:40px;
 
     li{
       border:1px solid lightgray;
@@ -83,6 +84,7 @@
       display: flex;
       flex-direction: column;
       gap:16px;
+      box-shadow: 0 0 16px 1px;
     }
   }
 </style>

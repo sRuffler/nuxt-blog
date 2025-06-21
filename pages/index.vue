@@ -17,7 +17,7 @@
 </template>
 
 <style>
-  .body{
+  body{
     background-color: black;
   }
 

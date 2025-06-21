@@ -84,7 +84,7 @@
       display: flex;
       flex-direction: column;
       gap:16px;
-      box-shadow: 0 0 16px 1px;
+      box-shadow: 0 0 8px 0px;
     }
   }
 </style>

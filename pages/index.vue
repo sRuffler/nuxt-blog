@@ -61,7 +61,9 @@
 
   ul{
     list-style: none;
-    display: flex;
+    display: grid;
+    padding:0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
 
     li{

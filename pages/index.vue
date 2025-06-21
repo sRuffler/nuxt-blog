@@ -35,6 +35,15 @@
     border:1px solid black;
     width: 100%;
   }
+
+  button{
+    padding:8px 12px;
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 24px;
+  }
 </style>
 
 

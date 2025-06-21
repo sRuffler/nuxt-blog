@@ -1,7 +1,7 @@
 <template>
   <h1>My Blog</h1>
 
-  <div>
+  <div class="blog-entry-form">
     <input v-model="newTitle" placeholder="Title" />
     <textarea v-model="newContent" placeholder="Content"></textarea>
     <button @click="addPost">Add Post</button>
@@ -17,10 +17,23 @@
 </template>
 
 <style scoped>
+  .body{
+    background-color: black;
+  }
+
+  .blog-entry-form{
+    display: flex;
+    gap:24px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+  }
+
   input, textarea{
     display: block;
     border-radius: 8px;
     border:1px solid black;
+    width: 100%;
   }
 </style>
 

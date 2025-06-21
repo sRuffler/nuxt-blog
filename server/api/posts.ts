@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
       },
     })
 
-    return post
+    return post 
   }
 
   // For GET requests

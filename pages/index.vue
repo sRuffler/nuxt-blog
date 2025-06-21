@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     padding:40px;
+    flex-direction: column;
   }
 
   .blog-entry-form{

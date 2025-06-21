@@ -57,6 +57,18 @@
     color: white;
     border:1px solid white;
   }
+
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+    li{
+      border:1px solid lightgray;
+      padding:16px;
+      border-radius: 12px;
+    }
+  }
 </style>
 
 

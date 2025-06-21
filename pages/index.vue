@@ -23,7 +23,7 @@ export default {
     return {
       newTitle: '',
       newContent: '',
-      posts: []
+      posts: [] 
     }
   },
   methods: {

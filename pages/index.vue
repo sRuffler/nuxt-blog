@@ -17,6 +17,13 @@
 </template>
 
 <style>
+
+   * {
+     box-sizing: border-box;
+     margin: 0; 
+     padding: 0;
+  }
+
   #__nuxt{
     width: 100%;
     height: 100%;

@@ -1,5 +1,5 @@
 <template>
-  <h1>My Blog</h1>
+  <h1>Wall of thruth</h1>
 
   <div class="blog-entry-form">
     <input v-model="newTitle" placeholder="Title" />
@@ -40,6 +40,7 @@
     flex-direction: column;
     align-items: center;
     width:100%;
+    max-width: 400px;
   }
 
   input, textarea{
@@ -79,6 +80,9 @@
       border:1px solid lightgray;
       padding:16px;
       border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap:16px;
     }
   }
 </style>
